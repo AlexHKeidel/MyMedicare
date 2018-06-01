@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/registrationActivityRelativeLayout"
+    tools:context=".Activities.RegistrationActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/registrationInstructions"
+            android:textSize="25sp"
+            android:layout_gravity="center_horizontal"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/registrationSpinner"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+        </Spinner>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/fistName"
+            android:ems="10"
+            android:id="@+id/firstNameEditText"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/lastName"
+            android:ems="10"
+            android:id="@+id/lastNameEditText"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:hint="@string/dateOfBirth"
+            android:ems="10"
+            android:id="@+id/dateOfBirthEditText"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/addressLine1"
+            android:ems="10"
+            android:id="@+id/addressLineOneEditText"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/addressLine2"
+            android:ems="10"
+            android:id="@+id/addresslineTwoEditText"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:hint="@string/phoneNumber"
+            android:ems="10"
+            android:id="@+id/phoneNumberEditText"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email"
+            android:ems="10"
+            android:id="@+id/emailEditText"
+            android:gravity="center_horizontal"
+            android:paddingBottom="5dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:text="@string/button_confirm"
+            android:id="@+id/confirmDetailsButton"/>
+
+    </LinearLayout>
+</RelativeLayout>

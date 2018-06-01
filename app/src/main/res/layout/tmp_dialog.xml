@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmpReadingTextView"
+        android:text="@string/tmpdialogInstructions"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmpReadingEditText"
+        android:hint="@string/tmpdialogReadingHint"
+        android:layout_gravity="center_horizontal"
+        android:inputType="numberDecimal"
+        android:maxLength="6"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tmpSwitchRelativeLayout">
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/degreesCelcius"
+            android:checked="false"
+            android:id="@+id/tmpSwitch"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/switchTextCelciusTextView"
+            android:text="@string/degreesFarenheit"
+            android:layout_toRightOf="@id/tmpSwitch"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">MyMediCare</string>
+    <string name="welcomeMessagePart1of2">Welcome to MyMediCare</string>
+    <string name="welcomeMessagePart2of2">Your customisable Medical Helper</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_addNewReading">Add New Reading</string>
+    <string name="action_accountManagement">Account Management</string>
+    <string name="registrationInstructions">Please enter your details</string>
+    <string name="newUserSpinnerMessage">New User</string>
+    <string name="fistName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="addressLine1">Street and House Number</string>
+    <string name="addressLine2">Postcode</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="email">Email</string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="button_confirm">Confirm</string>
+    <string name="confirmedDetailsMessage">Successfully Saved Your Details</string>
+    <string name="failedToSaveDetailsMessage">Failed To Save Your Details</string>
+    <string name="yourPersonalReadings">Your Personal Readings</string>
+
+    <string name="gpdetailsTitle">Your GP Information</string>
+    <string name="gpdetailsFullName">Full Name</string>
+
+    <string name="dialogPickTypeOfReading">Pick a type of reading</string>
+    <string name="dialogBloodPressure">Blood Pressure</string>
+    <string name="dialogTemperature">Temperature</string>
+    <string name="dialogHeartRate">Heart Rate</string>
+    <string-array name="dialogPickTypeOfReadingOptionsArray">
+        <item>@string/dialogBloodPressure</item>
+        <item>@string/dialogHeartRate</item>
+        <item>@string/dialogTemperature</item>
+    </string-array>
+
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="degreesFarenheit">°F</string>
+    <string name="degreesCelcius">°C</string>
+    <string name="bpdialogInstructions">Please enter your blood pressure</string>
+    <string name="bpdialogHighValueFieldHint">High reading</string>
+    <string name="bpdialogLowValueFieldHint">Low reading</string>
+    <string name="tmpdialogInstructions">Please enter your temperature</string>
+    <string name="tmpdialogReadingHint">Temp.</string>
+    <string name="hrdialogInstructinos">Please enter your heartrate in beats per minute</string>
+    <string name="hrdialogHint">BPM</string>
+
+    <string-array name="spinnerAdapterStrings">
+        <item>@string/newUserSpinnerMessage</item>
+    </string-array>
+</resources>

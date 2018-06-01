@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uk.ac.edgehill.keidel.alexander.mymedicare">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/medical_symbol"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.RegistrationActivity" />
+        <activity android:name=".Activities.GPDetailsAcitivty" />
+        <activity android:name=".Activities.SettingsAcitivty" />
+        <activity android:name=".Activities.WelcomeActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="defaultAppColour">#69C5FF</color>
+    <color name="darkAppColour">#0087DB</color>
+    <color name="yellowAppColour">#FFFD7A</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="normalRiskCategory">#A4E862</color>
+    <color name="lowRiskCategory">#FFBB45</color>
+    <color name="highRiskCategory">#FF4545</color>
+</resources>
